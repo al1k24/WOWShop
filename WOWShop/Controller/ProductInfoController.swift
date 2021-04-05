@@ -289,10 +289,8 @@ class ProductInfoController: UIViewController {
         
         updateFavoriteIcon(productFavoriteStatus)
         
-        guard let window = UIWindow.key else { return }
-        guard let tableView = window.rootViewController as? ProductsTableViewController else { return }
-        
-        tableView.reloadAll()
+//        guard let window = UIWindow.key else { return }
+//        guard let tableView = window.rootViewController as? ProductsTableViewController else { return }
     }
     
     @objc private func favoriteBarButtonTapped() {

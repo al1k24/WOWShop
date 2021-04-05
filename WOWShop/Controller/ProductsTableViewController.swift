@@ -161,10 +161,6 @@ extension ProductsTableViewController {
         
         fetchProducts(offset: currentOffestForLoading, limit: 5)
     }
-    
-    func reloadAll() {
-        self.tableView.reloadData()
-    }
 }
 
 //MARK: - Scroll view delegate
